@@ -1,10 +1,17 @@
 {
-  "name": "restful-fetch",
-  "version": "0.0.1",
+  "name": "restfulapi-fetch",
+  "version": "0.0.2",
   "description": "this is the restful fetch for node and browser",
   "main": "dist/restful-fetch.bundle.js",
   "author": "aaronchen",
   "license": "MIT",
+  "repository":{
+    "type" : "git",
+    "url" : "https://github.com/aaronisme/restful-fetch.git"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c",
     "test": "jest"
